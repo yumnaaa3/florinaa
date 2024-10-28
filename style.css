@@ -1,0 +1,77 @@
+body {
+    font-family: 'cursive', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d3436;
+    background-image: url('g.jfif'); /* Ganti dengan path gambar latar belakang yang benar */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh halaman */
+    background-position: center; /* Mengatur posisi gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+/* Tampilan untuk layar lebar */
+body {
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Tampilan untuk layar tablet */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+/* Tampilan untuk layar ponsel */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item {
+    flex: 1 1 200px; /* Menyesuaikan ukuran berdasarkan ukuran layar */
+}
+
+
+h1, h2 {
+    font-family: 'Cursive', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #636e72;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #2d3436;
+    border-radius: 12px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+img, video {
+    border: #2d3436;
+    font-size: 1.1rem;
+    color:palevioletred;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 30px; /* Menambah margin atas */
+}
+
